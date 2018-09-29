@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Page Title -->
+        <title>My Portfolio!</title>
+
+        <!-- Link to your external CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+
+        <!-- Create and display a favicon -->
+        <link rel="shortcut icon" type="image/jpeg" href="assets/images/Simon.jpeg"/>
+    </head>
+
+    <body>
+        <!--Display a Navigation bar at the top of the page-->
+        <div class="topnav">
+            <a class="fullname">Simon Parkinson</a>
+            <a class="active" href="contact.html" id="contact">contact</a>
+            <a class="topMenu" href="portfolio.html" id="portfolio">Portfolio</a>
+            <a class="topMenu" href="index.html" id="aboutme">About </a>
+        </div>
+                
+        <!--Create a container element for the contact form-->
+        <div class="contentContainer">
+            <!-- Contact Header -->
+            <a class="header">Contact</a>
+            <br>
+            <!-- Display a separator between header and the images-->
+            <hr>
+            <!--Define the form fields for the contact form-->
+            <form>
+                <label for="name" style="padding-left:10px">Name</label> <br>
+                <input type="text" id="name" placeholder="John Smith">
+                <br><br>
+                <label for="email" style="padding-left:10px">Email</label> <br>
+                <input type="text" id="email" placeholder="example@gmail.com">
+                <br><br>
+                <label for="message" style="padding-left:10px">Message</label> <br>
+                <textarea type="text" id="message" placeholder="Please enter your message here !"></textarea><br>
+                <br><br>
+                <input type="submit" id="submit" value="Submit">            
+            </form>
+        </div>     
+           
+        <footer>
+            <!--Display Footer-->
+            <div class="footer">&copy;Copyright</div>
+        </footer>  
+    </body>
+
+</html>

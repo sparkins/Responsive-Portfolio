@@ -1,0 +1,47 @@
+/**
+ * css for Media Query Homework;
+
+  Use three `@media screen` tags, each with one of these `max-width`s: `980px`, `768px` and `640px`.
+
+ **/
+
+ /* * {
+    box-sizing: border-box;
+  }
+   */
+
+   /* Styling for About Me page */
+/* .contentContainer {
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 2px;
+    background-color: #fff;
+    padding: 10px;
+    width:980px;
+    margin-left: 15%;
+    margin-right: 15%;
+} */
+
+
+  /* Width at 980px , for desktops*/
+  @media screen and (max-width: 980px) {
+
+}
+
+  /* Width at 768px , for tablets*/
+  @media screen and (max-width: 768px) {
+    .contentContainer {
+        width:99%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+}   
+
+  /* Width at 640px and below for phones*/
+  @media screen and (max-width: 640px) {
+    .contentContainer {
+        padding: 10px;
+        width:auto;
+        margin: 1%;  
+    }
+}

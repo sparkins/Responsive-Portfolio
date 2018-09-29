@@ -1,0 +1,116 @@
+ .topnav {
+    overflow: hidden;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    width: 99%;
+ }
+
+.topnav a.fullname {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bold;
+    border-bottom-color: #4aaaa5;
+    border-top-color: #4aaaa5;
+    text-align: center;
+    padding-left: 2%;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.topnav a {
+    float: right;
+    color: #cccccc;
+    text-align: center;
+    padding-right: 2%;
+    padding: 5px 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+    font-size: 17px;
+ }
+  
+ .topnav a.topMenu:hover {
+    background-color: #ffffff;
+    color: black;
+ }
+  
+ .topnav a.active {
+    background-color: #4aaaa5;
+    color: white;
+ }
+
+ .topnav a.active:hover {
+    background-color: #4aaaa5;
+    color: black;
+ }
+
+  /* Width at 980px , for desktops*/
+  @media screen and (max-width: 980px) {
+    .topnav a.fullname {
+        float: left;
+        padding-left: 15%;
+        font-size: 32px;
+        margin-top: 0;
+    }
+    
+    .topnav a {
+        float: right;
+        color: #cccccc;
+        text-align: center;
+        padding-right: 15%;
+        padding: 5px 5px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        margin-top: 10px;
+        font-size: 17px;
+     }
+}
+
+  /* Width at 768px , for tablets*/
+  @media screen and (max-width: 768px) {
+    .topnav {
+        float: none;
+        width: auto;
+        margin: 0.5%;
+        top: 10px;
+    }
+    .topnav a.fullname {
+        float: left;
+    }
+    .topnav a {
+        float: right;
+    }
+}   
+
+  /* Width at 640px and below for phones*/
+  @media screen and (max-width: 640px) { 
+    .topnav {
+        float: none;
+        width: auto;
+        margin: 1%;
+        background-color: #4aaaa5;
+    }
+    .topnav a.fullname {
+        /* padding: 4px; */
+        font-size: 24px;  
+        padding-left: 57px;
+        padding-right: 57px;  
+        margin-top: 5px;
+    }
+    .topnav a {
+        float: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .topnav a.active {
+        background-color: #fff;
+        color: blue;
+    }
+}
